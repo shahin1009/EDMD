@@ -5,7 +5,7 @@ However, DMD has a few limitations. For instance, it fails to capture the nonlin
 
 This is where eDMD comes into play. It is a generalized version of DMD that lets us choose the observables more flexibly. This makes the method more accurate and also expands its applicability in a broader range of areas.
 
-For eDMD, we use a dictionary of observables that describe the finite-dimensional subspace over which the Koopman operator can be approximated. Hence, we can reconstruct the solution with better accuracy by using a finite number of terms.
+For eDMD, we use a dictionary of observables(The first three functions in the notebook) that describe the finite-dimensional subspace over which the Koopman operator can be approximated. Hence, we can reconstruct the solution with better accuracy by using a finite number of terms.
 
 The challenge with eDMD is to choose the right dictionary that can capture the nonlinear dynamics of the system. In case of high-dimensional and highly nonlinear systems, we may use machine learning techniques like artificial neural networks or dictionary learning algorithms to select a suitable dictionary.
 
